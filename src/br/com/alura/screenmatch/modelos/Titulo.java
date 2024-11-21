@@ -94,10 +94,9 @@ public class Titulo implements Comparable<Titulo>{
 
     @Override
     public String toString() {
-        return "nome='" + nome + '\'' +
-                ", \nanoDeLancamento=" + anoDeLancamento +
-                "\nTempo de duração " + duracaoEmMinutos + "min" +
-                '}';
+        return "(nome = " + nome + '\'' +
+                ", \nanoDeLancamento = " + anoDeLancamento +
+                "\nTempo de duração  " + duracaoEmMinutos + " min)\n";
     }
 }
 
